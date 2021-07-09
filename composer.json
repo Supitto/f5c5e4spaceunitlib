@@ -1,6 +1,14 @@
 {
     "name": "431c8bspacecorp/f5c5e4spaceunitlib",
-    "description": "A SpaceCorp library for converting between standard units of measure, not",
+    "description": "A SpaceCorp library for converting between standard units of measure.",
+    "require": {
+        "php-units-of-measure/php-units-of-measure": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SpaceCorpUnits\\": "source/"
+        }
+    },
     "repositories": [
         {"type": "composer", "url": "https://repo.repman.io"},
         {"packagist": false}
