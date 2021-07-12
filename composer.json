@@ -1,7 +1,7 @@
 {
     "name": "431c8bspacecorp/f5c5e4spaceunitlib",
     "description": "A SpaceCorp library for converting between standard units of measure.",
-    "version": "dev",
+    "version": "1.0.0",
     "require": {
         "php-units-of-measure/php-units-of-measure": "^2.1"
     },
